@@ -31,9 +31,12 @@ body {
 /* Corpo do site */
 #body {
     text-align: center;
+    margin-top: -60px;
+    
 }
 #google-logo {
     padding-top: 7%;
+    margin-bottom: 20px;
 }
 #input-box {
     /* View Width */
@@ -89,7 +92,32 @@ body {
     color: #333;
     border-color: #333;
 }
-
+/* footer */
+footer {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 42;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-top: 1px  #E4E4E4;
+    padding-bottom: 15px;
+}
+#left-bar, #right-bar {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+#right-bar {
+    position: absolute;
+    right: 0;
+}
+#top-bar {
+    border-bottom: 1px solid #E4E4E4;
+    font-size: 15px;
+}
 
 
 
